@@ -1,10 +1,11 @@
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
+    text-align: center;
 }
 .logo {
     width: 23%;
-    padding: 1%;
+    padding: 0%;
 }
 nav {
     width: 73%;
@@ -30,5 +31,9 @@ footer {
 }
 footer ul {
     display: inline-block;
-    vertical-align: top;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    width: 100%;
 }
